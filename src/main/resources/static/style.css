@@ -1,0 +1,73 @@
+.table-header {
+    background: #000;
+    padding: 18px 0;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+.impair{
+    background: #EEEEEE;
+    height: 40px;
+}
+
+
+.pair{
+    background: #FFFFFF;
+    height: 40px;
+}
+
+.header {
+    background: #000;
+    padding: 5px 0;
+    height: 50px;
+    width: 500px;
+    color: white;
+    margin: 0;
+}
+
+li.impair {
+    background: #EEEEEE;
+    height: 40px;
+    width: 500px;
+}
+
+li.pair {
+    background: #FFFFFF;
+    height: 40px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.label{
+    width: 130px;
+    text-align: right;
+    float: left;
+    margin-right: 8px;
+}
+
+
+input{
+    width: 120px;
+}
+
+p.impair {
+    background: #EEEEEE;
+    height: 30px;
+    width: 276px;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+p.pair {
+    background: #FFFFFF;
+    height: 30px;
+    width: 276px;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    margin: 0;
+}
