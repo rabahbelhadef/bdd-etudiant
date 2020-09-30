@@ -30,6 +30,8 @@ public class EtudiantService {
 
     }
 
+    //TODO
+
     private Etudiant getEtudiant(String[] line) {
         Etudiant etudiant = new Etudiant();
         etudiant.setNom(line[0]);
@@ -37,4 +39,15 @@ public class EtudiantService {
         return etudiant ;
 
     }
+
+    public Etudiant getEtudiantById(int idEtudiant) {
+
+        try {
+            return etudiantDAO.getEtudiantById(idEtudiant);
+        } catch (SQLException e) {
+            throw new RuntimeException(e) ;
+        }
+    }
+
+
 }
